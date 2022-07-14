@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-size: 62.5%;
+	
+}
+body{
+    min-height: 100vh;
+     width: 100%;
+     position: relative;
+}
+h1,div,input,label,button{
+    font-size: 1.6rem;
+}
+h1{
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+.contenido{
+    width: 80rem;
+    margin: auto;
+    /*border: solid;*/
+    background-color: #dae3f3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: -1px 2px 5px 7px rgba(10, 35, 82, 0.21);
+ 
+}
+
+
+@media (max-width: 600px) {
+    .contenido{
+        width: 80rem;
+        margin: auto;
+        /*border: solid;*/
+        background-color: #dae3f3;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: none;
+        box-shadow: -1px 2px 5px 7px rgba(10, 35, 82, 0.21);
+     
+    }
+  }
+.informacion{
+/*border: solid red;*/
+display: flex;
+justify-content: space-around;
+
+}
+.label_info{
+   height: 3.1rem;
+    width: 18rem;
+    background-color: #ffc000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid #dea600;
+    color: white;
+}
+input{
+ 
+height: 3.1rem;
+border: 0.1rem solid rgb(13, 161, 235);
+outline: none;
+
+}
+
+input{
+    width: 26rem;
+    text-align: center;
+  
+}
+
+
+.columna{
+    margin-bottom: 4px;
+    
+}
+
+.columna,.columna_dos{
+   
+    width: 45rem;
+    display:flex;
+    align-items: center;
+   
+  
+    
+}
+
+.datos{
+/*border: solid;*/
+width: 45rem;
+
+}
+
+button{
+    /*border: solid;*/
+    color: white;
+    padding: 0.5rem 4rem;
+    border-radius: .5rem;
+    border:solid 0.2rem white;
+    cursor: pointer;
+    
+}
+.btn_extraer{
+    background-color: #70ad47;
+}
+.btn_colorear{
+    background-color: #5b9bd5;
+}
+
+.ingreso_datos{
+    /*border: solid;*/
+    max-width: 71rem;
+    margin: auto;
+    display: flex;
+justify-content: space-between;
+margin-top: 3rem ;
+padding-bottom: 1rem;
+}
+
+.primera_fila{
+   
+    width: 45rem;
+    display:flex;
+    align-items: center;
+    margin-bottom: 4px;
+     
+}
+
+.ingreso_datos_contenedor{
+/*border: solid;*/
+width: 34.3rem;
+
+
+}
+.ingreso_datos_input{
+    width: 15rem;
+}
+.label_datos{
+    height: 3.1rem;
+     width: 18rem;
+
+     display: flex;
+     justify-content: flex-start;
+     padding-left: 1rem;
+     align-items: center;
+     color: white;
+ }
+
+ .amarillo{
+    background-color: #ffc000;
+    border: 0.1rem solid #dea600;
+ }
+ .azul{
+    background-color: #5b9bd5;
+    border: 0.1rem solid #04529b;
+ }
+ .primera_datos{
+ 
+    display:flex;
+    align-items: center;
+    margin-bottom: 4px;
+     
+}
